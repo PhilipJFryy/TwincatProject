@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.9">
+  <GVL Name="GVL_1" Id="{4079eedb-3ba6-4232-9ea7-189ee7a1faa6}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	inTON1 : BOOL;
+	taster1 AT %I* : BOOL;
+	K1: BOOL;
+	K2: BOOL;
+	Zeit: TIME;
+	Schalter: BOOL;
+	Blinke_Lampe AT %QX0.0 : BOOL;
+	Viso_Schalter: BOOL;
+	t: BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
